@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", () => {
   let elements = document.querySelectorAll(".hot");
   if (elements) {
     for (let elements of elements) {
-      let child = document.createElement("i");
+      let child = document.createElement("🔥");
       child.setAttribute("class", "fa-solid fa-fire");
       elements.appendChild(child);
     }
